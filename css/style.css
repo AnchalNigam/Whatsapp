@@ -1,0 +1,35 @@
+/*Preloader */
+
+/*#loading {
+  overflow: hidden;
+ 
+}
+#loader {
+     width: 20vmax;
+     height: 50vmax;
+     
+     margin:auto;
+     background-image: url(../images/preloader.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+ 
+}
+
+
+#mycontent{
+  display:none;
+} */
+/*preloader end*/
+/*navbar style*/
+.navbar-custom {
+    background-color:#8DE4AF;
+   
+}
+#collapsibleNavbar a:hover{
+     background-color:#E7717D;
+     color:white;
+}
+.font-adjust{
+	font-family:garamond;
+	font-weight:bold;
+}
