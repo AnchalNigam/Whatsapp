@@ -20,11 +20,7 @@
    
 
 </head>
-<body id="loading" onload="myFunction()"  >
-   <!-- Preloader -->
-   <div class="animated pulse infinite" id="loader"></div>
-   <!-- Preloader end -->
-
+<body>
    <!-- my content start -->
   
       <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top">
@@ -220,7 +216,7 @@
                             <div class="card-body p-1">Me too!F9.</div>
                         </div>
                         <div class="card  bg bg-light mt-2">
-                            <div class="card-body p-1">Busy in concerts! <i class="fa fa-smile-o"></i> &nbsp<span class="ml-auto"><small>9:00pm <i class="fa fa-check" aria-hidden="true"></i>
+                            <div class="card-body p-1">Busy in concrts! <i class="fa fa-smile-o"></i> &nbsp<span class="ml-auto"><small>9:00pm <i class="fa fa-check" aria-hidden="true"></i>
                             </small></span></div>
 
                         </div>
@@ -242,22 +238,10 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   <script>
+    <script>
     $('.my-card').on('click',function(){
        window.location="chatview.html";
     })
-      let myVar;
-
-      function myFunction() {
-          myVar = setTimeout(showPage, 1000);
-      }
-
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("mycontent").style.display = "block";
-         document.getElementById("loading").style.overflow = "visible";
-      }
-
   </script>
 </body>
 </html>

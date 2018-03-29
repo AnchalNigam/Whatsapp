@@ -20,11 +20,7 @@
    
 
 </head>
-<body id="loading" onload="myFunction()"  >
-   <!-- Preloader -->
-   <div class="animated pulse infinite" id="loader"></div>
-   <!-- Preloader end -->
-
+<body>
    <!-- my content start -->
   
       <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top">
@@ -232,22 +228,10 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   <script>
+  <script>
     $('.my-card').on('click',function(){
        window.location="chatview.html";
     })
-      let myVar;
-
-      function myFunction() {
-          myVar = setTimeout(showPage, 1000);
-      }
-
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("mycontent").style.display = "block";
-         document.getElementById("loading").style.overflow = "visible";
-      }
-
-  </script>
+  </script> 
 </body>
 </html>
