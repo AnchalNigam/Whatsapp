@@ -20,13 +20,9 @@
    
 
 </head>
-<body id="loading" ><!-- onload="myFunction()" -->
-   <!-- Preloader -->
-  <!--  <div class="animated pulse infinite" id="loader"></div> -->
-   <!-- Preloader end -->
-
+<body>
    <!-- my content start -->
-   <div id="mycontent">
+  
       <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top">
         <div  class="container-fluid">
           <a class="navbar-brand font-adjust" href="index.html">Whatsapp-On-Web
@@ -54,7 +50,7 @@
       <div class="container-fluid top-adjust">
         <div class="row">
            <!-- chat section -->
-           <div class="col-lg-4 col-md-5 col-12 box-decoration border ">
+           <div class="col-lg-4 col-md-5 col-12 d-none d-md-block  box-decoration border ">
                 <div class="chat-adjust">
                   
                     <form class="form-inline" >
@@ -179,51 +175,60 @@
                 </div><!-- row end -->
            </div><!-- chat section end -->
 
-           <div class="col-lg-8 col-md-7 d-none d-md-block">
-               <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                      <li data-target="#demo" data-slide-to="0" class="active"></li>
-                      <li data-target="#demo" data-slide-to="1"></li>
-                      <li data-target="#demo" data-slide-to="2"></li>
-                    </ul>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/slide1.jpg" alt="Los Angeles" width="1100" height="500">
-                        <div class="carousel-caption">
-                          <h3>Whatsapp On Web</h3>
-                          
-                        </div>   
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/slide3.png" alt="Chicago" width="1100" height="500">
-                        <div class="carousel-caption">
-                          <h3>Connecting with your loved ones!</h3>
-                          
-                        </div>   
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/slide2.png" alt="New York" width="1100" height="500">
-                        <div class="carousel-caption">
-                          <h3>Checkout!Someone messaged you</h3>
-                          
-                        </div>   
-                      </div>
+           <div class="col-lg-8 col-md-7 box-decoration border">
+              <div class="chat-top-adjust">
+                <div class="media">
+                    <img class="mr-4 img-fluid rounded-circle img-adjust" src="images/user1.jpg" alt="profile-picture">
+                    <div class="media-body align-self-center">
+                        <div class="card bg bg-light">
+                            <div class="card-body p-1">Hey!How are you?</div>
+                        </div>
+                        <div class="card  bg bg-light mt-2">
+                            <div class="card-body p-1">What are you doing? <span class="ml-auto"><small>9:00pm <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            </small></span></div>
+
+                        </div>
+                              
                     </div>
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </a>
-                  </div>
+                </div>
+                <div class="media mt-5">
+                   
+                    <div class="ml-4 media-body align-self-center">
+                        <div class="card  bg bg-light">
+                            <div class="card-body p-1">Hey!F9</div>
+                        </div>
+                        <div class="card  bg bg-light mt-2">
+                            <div class="card-body p-1"> Nothing! busy in job <i class="fa fa-frown-o" aria-hidden="true"></i> &nbsp<span class="ml-auto"><small>9:00pm <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            </small></span></div>
+
+                        </div>
+                        <div class="card bg bg-light mt-2">
+                            <div class="card-body p-1">What about you?</div>
+                        </div>
+                              
+                    </div>
+                     <img class="ml-4 img-fluid rounded-circle img-adjust" src="images/user2.jpg" alt="profile-picture">
+                </div>
+                <div class="media mt-5">
+                    <img class="mr-4 img-fluid rounded-circle img-adjust" src="images/user1.jpg" alt="profile-picture">
+                    <div class="media-body align-self-center">
+                        <div class="card  bg bg-light">
+                            <div class="card-body p-1">Me too!F9.</div>
+                        </div>
+                        <div class="card  bg bg-light mt-2">
+                            <div class="card-body p-1">Busy in concerts! <i class="fa fa-smile-o"></i> &nbsp<span class="ml-auto"><small>9:00pm <i class="fa fa-check" aria-hidden="true"></i>
+                            </small></span></div>
+
+                        </div>
+                              
+                    </div>
+                </div>
+            </div>
            </div>
-          
+         
         </div><!-- row end -->
 
       </div><!-- conatiner end -->
-
-   </div><!-- mycontent end -->
-
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -233,22 +238,6 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   <script>
-    $('.my-card').on('click',function(){
-       window.location="chatview.html";
-    })
-      /*let myVar;
-
-      function myFunction() {
-          myVar = setTimeout(showPage, 3000);
-      }
-
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("mycontent").style.display = "block";
-         document.getElementById("loading").style.overflow = "visible";
-      }
-*/
-  </script>
+   
 </body>
 </html>
